@@ -17,7 +17,7 @@ function Newsletter() {
       return false;
     }
 
-    await fetch("http://localhost:5072/", {
+    await fetch("http://localhost:5000/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
