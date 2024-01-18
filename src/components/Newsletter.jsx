@@ -17,7 +17,7 @@ function Newsletter() {
       return false;
     }
 
-    await fetch("http://localhost:5000/", {
+    await fetch("https://just-yours-server.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
