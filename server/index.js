@@ -28,7 +28,7 @@ mongoose
 var user = require("./Schema.js");
 
 app.get("/", async (req, res, next) => {
-  res.json("Hey There, You are on a Ecommerce Server !!!");
+  res.json("Hey There");
 });
 
 app.post("/", async (req, res, next) => {
